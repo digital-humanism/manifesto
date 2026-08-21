@@ -84,6 +84,24 @@
 
 ---
 
+## 从原则到实现
+
+《数字人文主义宣言》为人工智能系统的设计和使用提出了原则、权利以及以人为中心的约束。
+
+**Human Agency Continuity Protocol (HACP)** 是一种技术实现路径，它将本宣言中的部分原则转化为可执行、可验证的系统架构。
+
+尤其是，HACP 将维护人的能动性、受限授权、语义检查点、因果溯源、撤销机制以及代理系统中的 fail-closed 强制执行等理念转化为具体的技术机制。
+
+### 技术实现
+
+- [HACP Specification](https://github.com/digital-humanism/hacp-spec) — 规范性协议、线级语义、一致性规则与安全模型。
+- [humanist-core](https://github.com/digital-humanism/humanist-core) — Python SDK，以及 HACP 授权、边界、溯源和集成机制的参考实现。
+- [hacp-sidecar](https://github.com/digital-humanism/hacp-sidecar) — 使用 Go 实现的 enforcement sidecar，提供 fail-closed 运行时强制执行和分布式控制平面语义。
+
+本宣言的范围远大于任何单一协议或实现。因此，HACP 应被理解为对宣言中部分原则的具体技术实现，而不是宣言本身。
+
+---
+
 ## 核心概念释义
 
 **认识论谦逊** ——人工智能公开承认自身理解的界限；拒绝制造"完备性的幻象"或取代活的知识承载者。

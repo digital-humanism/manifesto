@@ -84,6 +84,24 @@ El ser humano y la IA deben construir su relación sobre el fundamento del respe
 
 ---
 
+## De los principios a la implementación
+
+El Manifiesto de Humanismo Digital define principios, derechos y restricciones centradas en la persona para el diseño y uso de sistemas de inteligencia artificial.
+
+El **Human Agency Continuity Protocol (HACP)** es una vía de implementación técnica que traduce algunos de los principios de este Manifiesto en una arquitectura de sistema aplicable y verificable.
+
+En particular, HACP operacionaliza ideas relacionadas con la preservación de la agencia humana, la autoridad acotada, los puntos de control semánticos, la procedencia causal, la revocación y la aplicación fail-closed en sistemas agénticos.
+
+### Implementación técnica
+
+- [HACP Specification](https://github.com/digital-humanism/hacp-spec) — protocolo normativo, semántica de comunicación, reglas de conformidad y modelo de seguridad.
+- [humanist-core](https://github.com/digital-humanism/humanist-core) — SDK en Python e implementación de referencia de los mecanismos de autoridad, límites, procedencia e integración de HACP.
+- [hacp-sidecar](https://github.com/digital-humanism/hacp-sidecar) — sidecar de enforcement en Go con aplicación fail-closed en tiempo de ejecución y un plano de control distribuido.
+
+El Manifiesto es más amplio que cualquier protocolo o implementación concreta. Por ello, HACP debe entenderse como una realización técnica de algunos de sus principios, no como el Manifiesto en sí mismo.
+
+---
+
 ## GLOSARIO DE CONCEPTOS CLAVE
 
 **Humildad epistémica** — El reconocimiento abierto, por parte de la IA, de los límites de su propia comprensión; la negativa a crear una «ilusión de plenitud» o a sustituir al portador vivo del saber.

@@ -84,6 +84,24 @@ Human beings and AI must build their relationship on the foundation of mutual re
 
 ---
 
+## From Principles to Implementation
+
+The Digital Humanism Manifesto defines principles, rights, and human-centered constraints for the design and use of AI systems.
+
+The **Human Agency Continuity Protocol (HACP)** is one technical implementation path that translates selected principles of this Manifesto into enforceable system architecture.
+
+In particular, HACP operationalizes ideas related to preserving human agency, bounded authority, semantic checkpoints, provenance, revocation, and fail-closed enforcement across agentic systems.
+
+### Technical implementation
+
+- [HACP Specification](https://github.com/digital-humanism/hacp-spec) — normative protocol, wire semantics, conformance rules, and security model.
+- [humanist-core](https://github.com/digital-humanism/humanist-core) — Python SDK and reference implementation of HACP authority, boundary, provenance, and integration mechanisms.
+- [hacp-sidecar](https://github.com/digital-humanism/hacp-sidecar) — Go enforcement sidecar implementing fail-closed runtime enforcement and distributed control-plane semantics.
+
+The Manifesto is broader than any single protocol or implementation. HACP should therefore be understood as a concrete technical realization of selected principles — not as the Manifesto itself.
+
+---
+
 ## GLOSSARY OF KEY CONCEPTS
 
 **Epistemic Humility** — AI's open acknowledgement of the limits of its own understanding; a refusal to create an "illusion of completeness" or to substitute itself for a living bearer of knowledge.
